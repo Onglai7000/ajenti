@@ -82,7 +82,7 @@ cd /opt/ajenti
 
 msg ":: Cloning git repository in /opt/ajenti"
 
-git clone git://github.com/ajenti/ajenti.git || exit 1
+git clone https://github.com/ajenti/ajenti.git || exit 1
 cd ajenti
 
 msg ":: Installing Python requirements"
